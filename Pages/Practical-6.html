@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+    margin: 20px;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px;
+    text-align: center;
+  }
+  .button{
+      width: 100%;
+      background-color: green;
+      padding: 10px;
+      border-radius: 5px;
+      border: none;
+      align-self:baseline;
+      color:white;
+  }
+  .button:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    background-color: blue;
+    color: white;
+
+  }
+  </style>
+<body style="background-color: #c0c0c0;">
+    <h1 style="color: teal; text-align: center;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Layout using CSS Layout Properties</h1>
+    <div style="display: inline-flex; justify-content: center;">
+    <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbzBv5PlZPI5G9Bker2CuuH_lzoBdRrXsWJg&usqp=CAU" alt="HTML" style="width:100%; border-radius: 5px; height: 40%;">
+        <div class="container">
+          <h4><b>Introduction to HTML</b></h4>
+          <p>HyperText Markup Language (HTML) is the set of markup symbols or codes inserted into a file intended for display on the Internet. The markup tells web browsers how to display a web page's words and images.</p>
+          <a href="./Practical-5A.html"><button class="button"><b>Read more</b></button></a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCofJKo7wEFVZMIpETH2EbeUM5FFppwTlKLQ&usqp=CAU" alt="HTML" style="width:100%; border-radius: 5px; height: 40%;">
+        <div class="container">
+          <h4><b>Introduction to CSS</b></h4>
+          <p>CSS stands for Cascading Style Sheets. It is the language for describing the presentation of Web pages, including colours, layout, and fonts, thus making our web pages presentable to the users.It is independent of HTML.</p>
+          <a href="./Practical-5B.html"><button class="button"><b>Read more</b></button></a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="../images/JS.JPG" alt="HTML" style="width:100%; border-radius: 5px; height: 40%;">
+        <div class="container">
+          <h4><b>Introduction to Javascript</b></h4>
+          <p>JavaScript is a text-based programming language used both on the client-side and server-side that allows you to make web pages interactive. Where HTML and CSS are languages that give structure and style to web pages.</p>
+          <a href="./Practical-5C.html"><button class="button"><b>Read more</b></button></a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDoCPX9P9GeFAfz5ta1PTMkgg5H7d33ySGXg&usqp=CAU" alt="HTML" style="width:100%; border-radius: 5px; height: 40%;">
+        <div class="container">
+          <h4><b>Introduction to Bootstrap</b></h4>
+          <p>
+            Bootstrap is a potent front-end framework used to create modern websites and web apps. It's open-source and free to use, yet features numerous HTML and CSS templates for UI interface elements.</p>
+          <a href="./Practical-5D.html"><button class="button"><b>Read more</b></button></a>
+        </div>
+      </div>
+    </div>
+</body>
+</html>
